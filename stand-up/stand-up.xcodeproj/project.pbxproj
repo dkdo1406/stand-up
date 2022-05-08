@@ -88,10 +88,10 @@
 		E0449B1D28278DC100F1B1F9 = {
 			isa = PBXGroup;
 			children = (
+				E0EC73FD2827A582009BA96B /* Resource */,
 				E0EC73FB2827A402009BA96B /* ObservableStandup.swift */,
 				E0449B5F28279FE100F1B1F9 /* RecordView */,
 				E0449B5D28279FB800F1B1F9 /* Standuptimer.swift */,
-				E0449B5B28279D1300F1B1F9 /* WaterWave.swift */,
 				E0449B5928279AD200F1B1F9 /* Setting.swift */,
 				E0449B5528279A0D00F1B1F9 /* Main.swift */,
 				E0449B532827992A00F1B1F9 /* Start.swift */,
@@ -154,6 +154,14 @@
 				E0449B5728279A1F00F1B1F9 /* Record.swift */,
 			);
 			path = RecordView;
+			sourceTree = "<group>";
+		};
+		E0EC73FD2827A582009BA96B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E0449B5B28279D1300F1B1F9 /* WaterWave.swift */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

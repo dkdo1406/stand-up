@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct stand_upApp: App {
+    @StateObject private var standupObject = StandupObject()
+    
     var body: some Scene {
         WindowGroup {
             Start()
-                .environmentObject(waterObject)
+                .environmentObject(standupObject)
         }
     }
 }

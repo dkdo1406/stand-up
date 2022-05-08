@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WaterWave: View {
-    @EnvironmentObject var waterObject : WaterObject
+    @EnvironmentObject var standupObject : StandupObject
     @State var percent : Double = 0.0
     @Binding var currentwater : Double
         var body: some View {

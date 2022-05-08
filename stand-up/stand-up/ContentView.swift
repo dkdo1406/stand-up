@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var waterObject : WaterObject
+    @EnvironmentObject var standupObject : StandupObject
     
     var body: some View {
         TabView {
