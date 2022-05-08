@@ -11,7 +11,8 @@ import SwiftUI
 struct stand_upApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Start()
+                .environmentObject(waterObject)
         }
     }
 }

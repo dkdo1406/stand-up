@@ -14,6 +14,13 @@
 		E0449B3B28278DC200F1B1F9 /* stand_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B3A28278DC200F1B1F9 /* stand_upTests.swift */; };
 		E0449B4528278DC200F1B1F9 /* stand_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B4428278DC200F1B1F9 /* stand_upUITests.swift */; };
 		E0449B4728278DC200F1B1F9 /* stand_upUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B4628278DC200F1B1F9 /* stand_upUITestsLaunchTests.swift */; };
+		E0449B542827992A00F1B1F9 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B532827992A00F1B1F9 /* Start.swift */; };
+		E0449B5628279A0D00F1B1F9 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5528279A0D00F1B1F9 /* Main.swift */; };
+		E0449B5828279A1F00F1B1F9 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5728279A1F00F1B1F9 /* Record.swift */; };
+		E0449B5A28279AD200F1B1F9 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5928279AD200F1B1F9 /* Setting.swift */; };
+		E0449B5C28279D1300F1B1F9 /* WaterWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5B28279D1300F1B1F9 /* WaterWave.swift */; };
+		E0449B5E28279FB800F1B1F9 /* Standuptimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5D28279FB800F1B1F9 /* Standuptimer.swift */; };
+		E0EC73FC2827A402009BA96B /* ObservableStandup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC73FB2827A402009BA96B /* ObservableStandup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		E0449B4028278DC200F1B1F9 /* stand-upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stand-upUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0449B4428278DC200F1B1F9 /* stand_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stand_upUITests.swift; sourceTree = "<group>"; };
 		E0449B4628278DC200F1B1F9 /* stand_upUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stand_upUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0449B532827992A00F1B1F9 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		E0449B5528279A0D00F1B1F9 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		E0449B5728279A1F00F1B1F9 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		E0449B5928279AD200F1B1F9 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		E0449B5B28279D1300F1B1F9 /* WaterWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWave.swift; sourceTree = "<group>"; };
+		E0449B5D28279FB800F1B1F9 /* Standuptimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standuptimer.swift; sourceTree = "<group>"; };
+		E0EC73FB2827A402009BA96B /* ObservableStandup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableStandup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,13 @@
 		E0449B1D28278DC100F1B1F9 = {
 			isa = PBXGroup;
 			children = (
+				E0EC73FB2827A402009BA96B /* ObservableStandup.swift */,
+				E0449B5F28279FE100F1B1F9 /* RecordView */,
+				E0449B5D28279FB800F1B1F9 /* Standuptimer.swift */,
+				E0449B5B28279D1300F1B1F9 /* WaterWave.swift */,
+				E0449B5928279AD200F1B1F9 /* Setting.swift */,
+				E0449B5528279A0D00F1B1F9 /* Main.swift */,
+				E0449B532827992A00F1B1F9 /* Start.swift */,
 				E0449B2828278DC100F1B1F9 /* stand-up */,
 				E0449B3928278DC200F1B1F9 /* stand-upTests */,
 				E0449B4328278DC200F1B1F9 /* stand-upUITests */,
@@ -125,6 +146,14 @@
 				E0449B4628278DC200F1B1F9 /* stand_upUITestsLaunchTests.swift */,
 			);
 			path = "stand-upUITests";
+			sourceTree = "<group>";
+		};
+		E0449B5F28279FE100F1B1F9 /* RecordView */ = {
+			isa = PBXGroup;
+			children = (
+				E0449B5728279A1F00F1B1F9 /* Record.swift */,
+			);
+			path = RecordView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +287,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0449B2C28278DC100F1B1F9 /* ContentView.swift in Sources */,
+				E0449B5C28279D1300F1B1F9 /* WaterWave.swift in Sources */,
+				E0449B542827992A00F1B1F9 /* Start.swift in Sources */,
+				E0449B5A28279AD200F1B1F9 /* Setting.swift in Sources */,
+				E0449B5828279A1F00F1B1F9 /* Record.swift in Sources */,
+				E0449B5E28279FB800F1B1F9 /* Standuptimer.swift in Sources */,
+				E0449B5628279A0D00F1B1F9 /* Main.swift in Sources */,
+				E0EC73FC2827A402009BA96B /* ObservableStandup.swift in Sources */,
 				E0449B2A28278DC100F1B1F9 /* stand_upApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
