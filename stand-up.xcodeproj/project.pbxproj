@@ -20,6 +20,10 @@
 		E0449B5A28279AD200F1B1F9 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5928279AD200F1B1F9 /* Setting.swift */; };
 		E0449B5C28279D1300F1B1F9 /* WaterWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5B28279D1300F1B1F9 /* WaterWave.swift */; };
 		E0449B5E28279FB800F1B1F9 /* Standuptimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0449B5D28279FB800F1B1F9 /* Standuptimer.swift */; };
+		E0C9F5962828FFD3000199A2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F5952828FFD3000199A2 /* Task.swift */; };
+		E0C9F59828290027000199A2 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F59728290027000199A2 /* CustomDatePicker.swift */; };
+		E0C9F59A2829005B000199A2 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F5992829005B000199A2 /* DateValue.swift */; };
+		E0C9F59C28290081000199A2 /* Waterwave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C9F59B28290081000199A2 /* Waterwave.swift */; };
 		E0EC73FC2827A402009BA96B /* ObservableStandup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC73FB2827A402009BA96B /* ObservableStandup.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +61,10 @@
 		E0449B5928279AD200F1B1F9 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		E0449B5B28279D1300F1B1F9 /* WaterWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterWave.swift; sourceTree = "<group>"; };
 		E0449B5D28279FB800F1B1F9 /* Standuptimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standuptimer.swift; sourceTree = "<group>"; };
+		E0C9F5952828FFD3000199A2 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E0C9F59728290027000199A2 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		E0C9F5992829005B000199A2 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		E0C9F59B28290081000199A2 /* Waterwave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waterwave.swift; sourceTree = "<group>"; };
 		E0EC73FB2827A402009BA96B /* ObservableStandup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableStandup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +96,10 @@
 		E0449B1D28278DC100F1B1F9 = {
 			isa = PBXGroup;
 			children = (
+				E0C9F59B28290081000199A2 /* Waterwave.swift */,
+				E0C9F5992829005B000199A2 /* DateValue.swift */,
+				E0C9F59728290027000199A2 /* CustomDatePicker.swift */,
+				E0C9F5952828FFD3000199A2 /* Task.swift */,
 				E0EC73FD2827A582009BA96B /* Resource */,
 				E0EC73FB2827A402009BA96B /* ObservableStandup.swift */,
 				E0449B5F28279FE100F1B1F9 /* RecordView */,
@@ -294,13 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C9F59C28290081000199A2 /* Waterwave.swift in Sources */,
 				E0449B2C28278DC100F1B1F9 /* ContentView.swift in Sources */,
 				E0449B5C28279D1300F1B1F9 /* WaterWave.swift in Sources */,
+				E0C9F59828290027000199A2 /* CustomDatePicker.swift in Sources */,
+				E0C9F5962828FFD3000199A2 /* Task.swift in Sources */,
 				E0449B542827992A00F1B1F9 /* Start.swift in Sources */,
 				E0449B5A28279AD200F1B1F9 /* Setting.swift in Sources */,
 				E0449B5828279A1F00F1B1F9 /* Record.swift in Sources */,
 				E0449B5E28279FB800F1B1F9 /* Standuptimer.swift in Sources */,
 				E0449B5628279A0D00F1B1F9 /* Main.swift in Sources */,
+				E0C9F59A2829005B000199A2 /* DateValue.swift in Sources */,
 				E0EC73FC2827A402009BA96B /* ObservableStandup.swift in Sources */,
 				E0449B2A28278DC100F1B1F9 /* stand_upApp.swift in Sources */,
 			);
