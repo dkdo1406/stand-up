@@ -61,8 +61,8 @@ struct Main: View {
     var body: some View {
         VStack{
             VStack{
-                Text("\(waterObject.todaydate())")
-                Text("일어난 횟수 : \(waterObject.standupcount)")
+                Text("\(standupObject.todaydate())")
+                Text("일어난 횟수 : \(standupObject.standupcount)")
             }
             .font(.title)
             .padding(.bottom,30)
@@ -112,7 +112,7 @@ struct Main: View {
                             }
                             Button(action: {
                                 //저장되어 있는 timeRemaining을 가져온다.
-                                timeRemaining=standupObject.start3_array[waterObject.start3]*60
+                                timeRemaining=standupObject.cycle_array[standupObject.cycle]*60
                             })
                             {
                                 Image(systemName: "restart.circle.fill")
@@ -143,7 +143,7 @@ struct Main: View {
                     .padding(.bottom,10)
                 Text("\(String(format: "%.0f", currentwater)  )ml")
                 //물 부분
-                waterwave(currentwater: $currentwater)
+                Waterwave(currentwater: $currentwater)
             }
             .frame(width: 320, height: 350)
             .overlay(

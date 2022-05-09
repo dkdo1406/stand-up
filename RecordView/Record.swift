@@ -8,13 +8,48 @@
 import SwiftUI
 
 struct Record: View {
+    @State var currentDate: Date = Date()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Record_Previews: PreviewProvider {
-    static var previews: some View {
-        Record()
+        
+        ScrollView(.vertical, showsIndicators: false){
+            VStack(spacing: 20){
+                // Custom Date Picker....
+                CustomDatePicker(currentDate :  $currentDate)
+            }
+            .padding(.vertical)
+        }
+        .padding(.top, 1)
+        // Safe Area View...(밑에 추가버튼부분인데 난 사용안함
+        /*
+        .safeAreaInset(edge: .bottom){
+            
+            HStack{
+                
+                Button{
+                    
+                } label: {
+                    Text("Add Task")
+                        .fontWeight(.bold)
+                        .padding(.vertical)
+                        .frame(maxWidth: .infinity)
+                        .background(Color(.orange),in: Capsule())
+                }
+                
+                Button{
+                    
+                } label: {
+                    Text("Add Remainder")
+                        .fontWeight(.bold)
+                        .padding(.vertical)
+                        .frame(maxWidth: .infinity)
+                        .background(Color(.purple),in: Capsule())
+                }
+            }
+            .padding(.horizontal)
+            .padding(.top,10)
+            .foregroundColor(.white)
+            .background(.ultraThinMaterial)
+        }
+         */
     }
 }
