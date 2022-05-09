@@ -112,7 +112,7 @@ struct Main: View {
                             }
                             Button(action: {
                                 //저장되어 있는 timeRemaining을 가져온다.
-                                timeRemaining=waterObject.start3_array[waterObject.start3]*60
+                                timeRemaining=standupObject.start3_array[waterObject.start3]*60
                             })
                             {
                                 Image(systemName: "restart.circle.fill")
@@ -153,8 +153,8 @@ struct Main: View {
             
             .onAppear {
                 if !self.hasBeen {
-                    self.times =  waterObject.start3_array[waterObject.start3]*60 // 이건 필요없는 코드라 나중에 삭제
-                    self.timeRemaining=waterObject.start3_array[waterObject.start3]*60//이것이 다른창갔다오면 정신을 못차린다. 왜 초기화?
+                    self.times =  standupObject.cycle_array[standupObject.cycle]*60 // 이건 필요없는 코드라 나중에 삭제
+                    self.timeRemaining=standupObject.cycle_array[standupObject.cycle]*60//이것이 다른창갔다오면 정신을 못차린다. 왜 초기화?
                     self.timeRemaining=10//이것이 다른창갔다오면 정신을 못차린다. 왜 초기화?
                     self.hasBeen = true
                 }
