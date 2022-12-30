@@ -34,16 +34,16 @@ func getSampleDate(offset: Int)->Date{
     return date ?? Date()
 }
 
-func getSampleDate(dateString:String)->Date{
+func getSampleDate(dateString: String)->Date {
     
     let dateFormatter = DateFormatter()
 
     dateFormatter.dateFormat = "yyyy-MM-dd"
     dateFormatter.timeZone = NSTimeZone(name: "UTC") as TimeZone?
 
-    let date:Date = dateFormatter.date(from: dateString)!
+    let date: Date = dateFormatter.date(from: dateString)!
     
-    return date ?? Date() //빈값이 안오면 왼쪽 빈값이 오면 default 데이터인 오른쪽을 보낸다.
+    return date
 }
 
 

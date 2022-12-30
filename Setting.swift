@@ -15,7 +15,5 @@ struct Setting: View {
         VStack{
             Settingdata()
         }
-        
-    
         }
 }
