@@ -17,4 +17,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: xcodebuild build -allowProvisioningUpdates -project stand-up.xcodeproj
+      run: | 
+        xcodebuild build -project stand-up.xcodeproj -scheme stand-up -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=14.4'
